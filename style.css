@@ -1,0 +1,311 @@
+/* Default CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 1240px;
+    margin: auto;
+}
+
+
+/* Header CSS */
+header{
+    background-color: #000000;
+}
+header .main-header{
+	display: flex;
+    align-items: center;
+    padding: 15px 50px;
+}
+header .main-header .logo{
+	width: 30%;
+    display: flex;
+    justify-content: center;
+}
+header .main-header .logo a{
+
+}
+header .main-header .logo a img {
+	width: 80px;
+    height: auto;
+}
+
+header .main-header .header-menu{
+	width: 70%;
+	margin-top: 7px;
+}
+header .main-header .header-menu ul{
+    display: flex;
+    justify-content: center;
+}
+header .main-header .header-menu ul li{ 
+	list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+header .main-header .header-menu ul li a{
+	text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 16px;
+	padding: 0 0 5px 0;
+}
+
+/* Slider-section */  
+slider-section{
+	margin-top: 50px;
+	display: flex;
+	margin-left: 50px;
+}
+slider-section .left-content{
+	width: 75%;
+	margin: 40px 0;
+}
+.left-content .inner-content-top{
+	display: flex;
+}
+.box1-content{
+	border: 1px solid green;
+	height: 200px;
+	width: 300px;
+	display: flex;
+	justify-content: flex-start;
+	margin: 0;
+	padding: 0;
+}
+.box1-content .box-1{
+	display: flex;
+	background-color: red;
+	width: 75px;
+	height: 75px;
+	color: white; 
+	align-items: center;
+}
+
+.box2-content{
+	border: 1px solid green;
+	height: 200px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	margin: 0 20px;
+}
+.box2-content .box-2{
+	display: flex;
+	background-color: red;
+	width: 75px;
+	height: 75px;
+	color: white;
+	align-items: center;
+}
+
+.box3-content{
+	border: 1px solid green;
+	height: 200px;
+	width: 300px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: end; 
+	margin: 0;
+	padding: 0;
+}
+.box3-content .box-3{
+	display: flex;
+	background-color: red; 
+	width: 75px;
+	height: 75px;
+	color: white;
+	align-items: center;
+}
+
+
+.inner-content-middle{
+	display: flex;
+	margin: 50px 0;
+}
+about-section {
+	margin: 50px;
+}
+.about-content-1{
+	border: 1px solid green; 
+	height: 200px;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+}
+.about-content-1 p{ 
+	padding: 16px;
+	font-size: 14px;
+}
+
+.about-content-2{
+	border: 1px solid green;
+	height: 200px;
+	width: 400px;
+	padding: 0;
+	margin: 0 20px;
+}
+.about-content-2 p{
+	padding: 16px;
+	font-size: 14px;
+} 
+
+.about-content-3{
+	border: 1px solid green;
+	height: 200px;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+}
+.about-content-3 p{
+	padding: 16px;
+	font-size: 14px;
+}
+
+
+.inner-content-bottom{
+	display: flex;
+}
+service-section{
+	margin: 40px 0;
+	display: flex;
+
+}
+
+.service-content-1{
+	border: 1px solid green;
+	height: 160px;
+	width: 270px;
+	display: flex;
+	justify-content: space-around;
+}
+.service-content-1 .service-1{
+	display: flex;
+	background-color: red;
+	width: 35px;
+	height: 26px;
+	color: white;
+	margin: 20px 0px;
+	justify-content: center;
+	border: 1px solid green;
+	align-items: center;
+}
+
+.service-content-2{
+	border: 1px solid green;
+	height: 160px;
+	width: 359px;
+	display: flex;
+	margin: 0px 20px;
+	flex-wrap: wrap;
+}
+.service-content-2 .service-2{ 
+	display: flex;
+	background-color: red;
+	width: 39px;
+	color: white;
+	border: 1px solid green;
+	margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.service-content-3{
+	border: 1px solid green;
+	height: 160px;
+	width: 270px;
+	display: flex;
+	justify-content: space-around;
+}
+.service-content-3 .service-01{
+	display: flex;
+	background-color: red;
+	width: 65px;
+	height: 30px;
+	color: white;
+	margin: 25px 0px;
+	justify-content: center;
+	border: 1px solid green;
+	align-items: center;
+}
+
+.middle {
+	display: flex;
+	align-items: center;
+}
+.service-content-3 .service-02{
+	display: flex;
+	background-color: red;
+	width: 65px;
+	height: 30px;
+	color: white;
+	margin: 25px 0px;
+	justify-content: center;
+	border: 1px solid green;
+	align-items: center;
+}
+
+.last {
+	display: flex;
+	align-items: flex-end;
+}
+.service-content-3 .service-03{
+	display: flex;
+	background-color: red;
+	width: 65px;
+	height: 30px;
+	color: white;
+	margin: 25px 0px;
+	justify-content: center;
+	border: 1px solid green;
+	align-items: center;
+}
+
+.right-content{
+	width: 25%;
+	background-color: #d2d2d2;
+	border-left: 1px solid red;
+	padding: 20px;
+}
+.right-content p{	
+	
+}
+
+/* Footer CSS */
+footer{
+    background-color: #000000;
+	margin-top: 50px;
+	height: 80px;
+}
+
+footer .footer-menu{
+	
+}
+footer .footer-menu ul{
+    display: flex;
+    justify-content: center;
+	
+}
+footer .footer-menu ul li{ 
+	list-style: none; 
+    display: inline-block;
+    padding: 0 20px;
+	margin-top: 25px;
+}
+footer .footer-menu ul li a{
+	text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+	padding: 0 0 5px 0;
+}
